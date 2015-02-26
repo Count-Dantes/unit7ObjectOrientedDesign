@@ -61,7 +61,7 @@ public class Deck {
 	 * and reset the size to represent the entire deck.
 	 */
 	public void shuffle() {
-		for (int k = cards.size() - 1; k < 0; k--) {
+		for (int k = cards.size() - 1; k > 0; k--) {
 			int howMany = k + 1;
 			int start = 0;
 			int randPos = (int) (Math.random() * howMany) + start;
@@ -94,7 +94,7 @@ public class Deck {
 	public String toString() {
 		String rtn = "size = " + size + "\nUndealt cards: \n";
 
-		for (int k = size - 1; k >= 0; k--) {
+		for (int k = size - 1; k > 0; k--) {
 			rtn = rtn + cards.get(k);
 			if (k != 0) {
 				rtn = rtn + ", ";

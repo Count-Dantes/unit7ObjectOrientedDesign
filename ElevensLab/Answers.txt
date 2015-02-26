@@ -1,0 +1,17 @@
+Elevens Lab Questions
+
+
+
+Activity 5
+	1.) The returned assertion error states that is false is false for an empty deck.
+	my best guess of the error would be that the code was not updating the index when
+	removing a card.
+	2.) The returned assertion error states that a deck that is expected to have a 
+	size of one returns zero as it's size. I would anticipate that the code was not
+	incrementing the size with the addition of a card.
+	3.) The returned error states that d1 & d2 returned the same sequence. I would	
+	assume that the code was not shuffling the cards at startup
+	4.) The returned error stated that the first card delt from a 1 card deck was
+	returned null. I would assume that this is due to the card object not being initialized
+	while the size was incremented
+	

@@ -51,6 +51,18 @@ public class DeckTester {
 		System.out.println();
 		System.out.println();
 
-		/* *** TO BE COMPLETED IN ACTIVITY 4 *** */
+		String [] r = {"one", "two", "three", "four",
+		    "five", "six", "seven",
+		    "eight", "nine", "ten",
+		    "jack", "queen", "king"};
+		String[] s = {"clubs", "spades", "hearts", "diamonds"};
+		int[] p = {1,2,3,4,5,6,7,8,9,10,11, 12, 13};
+		Deck deck = new Deck(r, s, p);
+		//System.out.println(deck.toString());
+		System.out.println("**** Deal a Card ****");
+		System.out.println("  deal: " + deck.deal());
+		System.out.println();
+		System.out.println();
+		System.out.println(deck.toString());
 	}
 }
