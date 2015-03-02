@@ -15,3 +15,18 @@ Activity 5
 	returned null. I would assume that this is due to the card object not being initialized
 	while the size was incremented
 	
+Activity 6
+	1.) 5&6
+	2.) Because the other cards eliminate eachother in pairs
+	3.) No, it is pure luck. If there is more possible play, the order does not mater
+	because you can only match a card with it's elevens pair
+
+Activity 7
+	1.) I would need a deck of cards, my hands, a discard pile, and the spaces to place the card
+	2.) The start of the algorithm would be to shuffle the cards, and deal out the initial
+	spaces. Next, it would check for any possible matches.If there is a group of threes
+	remove that group then replace the spaces with new cards. If there is a group of 
+	twos, remove them. Next check to see if there are cards left in the deck. If there are
+	none print a win screen. If yes, fill the empty spaces with cards. Next repete
+	the algorithem. If there are no possible combos, print a loose state.
+	3.)yup
